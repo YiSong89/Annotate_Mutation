@@ -10,7 +10,8 @@ treetime ancestral --aln .\Seq.translated.fas --tree .\Seqtree.nwk --aa --outdir
 TreeTime will generate a folder named ancestral, containing ancestral sequences and annotated nexus tree.
 
 Mutations are stored in \[&mutations="S1G,S2T"\]. Can view the mutation in Figtree directly.
+
 Convert this to old view with Node000@S1G@S2T
 ```
-python convert.py .\ancestral\annotated_tree.nexus H3_ancestral_label.nwk
+python convert.py .\ancestral\annotated_tree.nexus Seq_ancestral_label.nwk
 ```
